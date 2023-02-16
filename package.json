@@ -1,0 +1,21 @@
+{
+  "name": "chatBot",
+  "version": "1.0.0",
+  "description": "基于NodeJS框架Koa实现的Websocket聊天机器人",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app.js"
+  },
+  "keywords": [],
+  "author": "Eddy",
+  "license": "ISC",
+  "devDependencies": {
+    "colors-console": "^1.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "koa": "^2.14.1",
+    "koa-static": "^5.0.0",
+    "ws": "^8.12.1"
+  }
+}
